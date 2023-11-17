@@ -13,18 +13,14 @@ This Bash script sends HTTP requests to a list of hosts and paths, saves the out
 
 1. Clone the repository
 
-   ```bash
+   ```
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
-
     Make the script executable
-
-chmod +x your_script.sh
-```
-### Run the script
-```
-    ./your_script.sh
-```
+   chmod +x your_script.sh
+   ```
+## Run the script
+    ./f2k.sh
 ## Configuration
 
     hosts: Create a file named hosts with a list of host URLs, one per line.
@@ -35,18 +31,14 @@ chmod +x your_script.sh
 
 Assuming the following content in hosts and paths files:
 
-### hosts
-
-plaintext
-
+## hosts
+```
 https://cache.marriott.com
 https://www.marriott.com
 https://www.emea.marriott.com
 http://cache.marriott.com
-
-### paths
-
-plaintext
+```
+## paths
 ```
 /path1
 /path2
