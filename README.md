@@ -16,8 +16,7 @@ This Bash script sends HTTP requests to a list of hosts and paths, saves the out
    ```
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
-    Make the script executable
-   chmod +x your_script.sh
+   chmod +x your_script.sh to make your script executable
    ```
 ## Run the script
     ./f2k.sh
